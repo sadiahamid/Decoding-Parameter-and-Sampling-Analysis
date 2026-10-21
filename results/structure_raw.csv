@@ -1,0 +1,576 @@
+experiment,model,item_id,prompt,sweep,swept_value,temperature,top_k,top_p,run,output
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.2,0.2,40,0.9,1,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""Chatbots that can understand and respond to user queries"", ""Self-driving cars that can navigate through roads"", ""Virtual assistants that can schedule appointments and send emails""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.2,0.2,40,0.9,2,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""A self-driving car that can recognize and respond to traffic lights"", ""A virtual assistant that can understand and respond to voice commands"", ""A medical diagnosis system that can analyze patient data and provide accurate diagnoses""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.2,0.2,40,0.9,3,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, and decision-making."",
+""examples"": [""A self-driving car can navigate through traffic"", ""A chatbot can answer customer service questions"", ""A medical diagnosis system can detect diseases from medical images""]"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.2,0.2,40,0.9,1,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant can understand voice commands and perform tasks such as setting reminders, making phone calls, and playing music.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications such as facial recognition, object detection, and image search.
+3. Natural Language Processing: AI-powered NLP can analyze and generate human-like text, enabling applications such as language translation, sentiment analysis, and text summarization.
+4. Predictive Maintenance: AI-powered predictive maintenance can analyze equipment data and predict when maintenance is required, reducing downtime and increasing overall efficiency.
+5. Personalized Medicine: AI-powered personalized medicine can analyze patient data and medical records to develop tailored treatment plans, improving patient outcomes and reducing healthcare costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.2,0.2,40,0.9,2,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications such as facial recognition, object detection, and medical image analysis.
+3. Predictive Maintenance: AI-powered predictive maintenance uses machine learning to analyze equipment data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Chatbots: AI-driven chatbots use machine learning to understand customer queries and provide personalized responses, improving customer service and reducing support costs.
+5. Personalized Medicine: AI can analyze medical data and develop personalized treatment plans for patients, improving treatment outcomes and reducing healthcare costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.2,0.2,40,0.9,3,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications such as facial recognition, object detection, and medical image analysis.
+3. Predictive Maintenance: AI-powered predictive maintenance uses machine learning to analyze equipment data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Chatbots: AI-driven chatbots use machine learning to understand customer queries and provide personalized responses, automating customer service and improving customer experience.
+5. Personalized Medicine: AI-powered analytics can analyze medical data and identify personalized treatment options for patients, improving healthcare outcomes and reducing costs."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.7,0.7,40,0.9,1,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, and decision-making."",
+""examples"": [""Image recognition"", ""Natural Language Processing"", ""Game playing""]
+}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.7,0.7,40,0.9,2,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The simulation of human intelligence in machines that are programmed to think and learn like humans."",
+""examples"": [""Chatbots that can converse with humans"", ""Self-driving cars that can navigate roads"", ""Virtual assistants like Siri and Alexa""]
+}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.7,0.7,40,0.9,3,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+""examples"": [""A self-driving car can recognize and respond to traffic lights"", ""A chatbot can understand and respond to natural language queries"", ""A medical diagnosis tool can analyze patient data and provide accurate diagnoses""]"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.7,0.7,40,0.9,1,"1. Virtual Assistants: AI-powered virtual assistants, such as Siri, Google Assistant, and Alexa, use natural language processing to understand and respond to voice commands, making it easier for users to perform tasks and access information.
+2. Image Recognition: AI-driven image recognition systems can identify and categorize objects, people, and scenes in images and videos, with applications in areas like security, healthcare, and marketing.
+3. Predictive Maintenance: AI algorithms can analyze equipment performance data and predict when maintenance is required, reducing downtime and improving overall efficiency in industries like manufacturing and logistics.
+4. Chatbots: AI-powered chatbots can engage with customers in real-time, providing personalized support and resolving issues quickly, with applications in customer service, e-commerce, and healthcare.
+5. Medical Diagnosis: AI-powered diagnostic tools can analyze medical images, lab results, and patient data to help doctors diagnose diseases more accurately and quickly, improving patient outcomes and reducing healthcare costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.7,0.7,40,0.9,2,"1. Virtual assistants like Siri, Alexa, and Google Assistant use AI to understand and respond to voice commands.
+2. Image recognition software uses AI to identify objects, people, and scenes in photos and videos.
+3. Predictive maintenance systems use AI to analyze equipment data and predict when maintenance is needed.
+4. Natural language processing (NLP) enables chatbots to understand and respond to human language in customer service and other applications.
+5. Self-driving cars use AI to process visual and sensor data to navigate roads and avoid obstacles."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.7,0.7,40,0.9,3,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Google Assistant, and Alexa help users perform tasks, answer questions, and control smart devices.
+2. Image Recognition: AI-powered image recognition technology enables facial recognition, object detection, and image classification, with applications in security, healthcare, and e-commerce.
+3. Natural Language Processing: AI-powered NLP enables machines to understand, interpret, and generate human language, with applications in chatbots, language translation, and sentiment analysis.
+4. Predictive Maintenance: AI-powered predictive maintenance helps industries like manufacturing and healthcare predict equipment failures, optimize maintenance schedules, and reduce downtime.
+5. Personalized Medicine: AI-powered personalized medicine uses machine learning to analyze patient data, predict treatment outcomes, and recommend tailored treatments for better patient care."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,1.2,1.2,40,0.9,1,"{""name"":""Artificial Intelligence"", ""definition"":""The field of study that involves creating intelligent machines that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making."", ""examples"":[""Machine learning algorithms that can classify images"", ""Natural Language Processing (NLP) models that can understand and respond to voice commands"", ""Robotics systems that can learn and adapt to new environments""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,1.2,1.2,40,0.9,2,"{""name"":""Artificial Intelligence"",""definition"":""The field of AI research deals with the study of artificial intelligence and the construction of intelligent machines. This involves the study of the theory of computation, the study of problem-solving and the study of the principles and applications of artificial intelligence. Artificial intelligence can be classified into two main areas: natural language processing and computer vision. Artificial intelligence has many applications in different areas such as medicine, finance, education, and entertainment. Some of the benefits of AI include automation, precision, speed, and scalability. Some of the challenges and risks associated with AI include job loss, bias, and lack of transparency. Artificial intelligence can be classified into narrow, general, and super intelligence. Narrow intelligence is focused on one specific area, while general intelligence is focused on human-like intelligence, and super intelligence is intelligence that is beyond human intelligence. The development of artificial intelligence is still an ongoing process, and it is expected to continue to evolve and grow in the future. "",""examples"":[""The AI-powered assistant on my phone can help me manage my schedule and make appointments."",""I can order food"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,1.2,1.2,40,0.9,3,"{""name"": ""Artificial Intelligence"", ""definition"": ""Intelligence demonstrated by machines, including learning, problem-solving, and decision-making, often using algorithms and data."", ""examples"": [""Chatbots that can understand natural language"", ""Self-driving cars that can make split-second decisions"", ""Recommendation systems that can learn user preferences""]}"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,1.2,1.2,40,0.9,1,"1. Virtual assistants like Siri, Alexa, and Google Assistant that can understand voice commands and perform tasks such as setting reminders, making phone calls, and sending messages.
+2. Medical diagnosis and treatment, such as identifying diseases from medical images, predicting patient outcomes, and recommending personalized treatment plans.
+3. Chatbots that can automate customer service, provide product recommendations, and answer frequent questions, improving customer satisfaction and reducing support queries.
+4. Predictive maintenance in industrial settings, such as monitoring equipment performance, detecting anomalies, and scheduling maintenance to prevent downtime and reduce costs.
+5. Personalized shopping recommendations based on purchase history, browsing behavior, and product ratings, helping customers discover new products and increasing sales."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,1.2,1.2,40,0.9,2,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant can understand and respond to voice commands, helping users manage their daily schedules and tasks.
+2. Medical Diagnosis: AI algorithms can analyze medical images and data to help doctors diagnose diseases more accurately and efficiently, such as detecting cancer and tumors.
+3. Chatbots: AI-powered chatbots can be used in customer service, allowing businesses to provide 24/7 support and helping customers find answers to their queries.
+4. Facial Recognition: AI-powered facial recognition technology can be used for security purposes, such as identifying individuals in crowded areas or monitoring access to secure facilities.
+5. Autonomous Vehicles: AI algorithms can enable self-driving cars to navigate roads and traffic, reducing the risk of accidents and improving traffic flow."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,1.2,1.2,40,0.9,3,"1. Chatbots: AI-powered chatbots are used to provide customer support and answer frequently asked questions, freeing up human customer service representatives to handle more complex issues.
+2. Image Recognition: AI-powered image recognition is used in self-driving cars to detect and identify objects such as pedestrians, vehicles, and road signs.
+3. Natural Language Processing (NLP): AI-powered NLP is used in virtual assistants like Siri and Alexa to understand and respond to voice commands and queries.
+4. Predictive Maintenance: AI-powered predictive maintenance is used in manufacturing and logistics to predict equipment failures and schedule maintenance before downtime occurs.
+5. Fraud Detection: AI-powered fraud detection is used in financial institutions to detect and prevent fraudulent transactions and identity theft."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,1.0,0.7,1,0.9,1,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""A self-driving car can recognize and respond to traffic lights and pedestrians"", ""A virtual assistant can understand and respond to voice commands"", ""A chatbot can engage in conversation and answer questions""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,1.0,0.7,1,0.9,2,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""A self-driving car can recognize and respond to traffic lights and pedestrians"", ""A virtual assistant can understand and respond to voice commands"", ""A chatbot can engage in conversation and answer questions""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,1.0,0.7,1,0.9,3,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""A self-driving car can recognize and respond to traffic lights and pedestrians"", ""A virtual assistant can understand and respond to voice commands"", ""A chatbot can engage in conversation and answer questions""]}"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,1.0,0.7,1,0.9,1,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications like facial recognition, object detection, and image search.
+3. Predictive Maintenance: AI-powered predictive maintenance uses machine learning to analyze equipment data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Chatbots: AI-driven chatbots use machine learning to understand customer queries and provide personalized responses, improving customer service and reducing support costs.
+5. Personalized Medicine: AI algorithms can analyze medical data and patient profiles to develop personalized treatment plans, improving patient outcomes and reducing healthcare costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,1.0,0.7,1,0.9,2,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications like facial recognition, object detection, and image search.
+3. Predictive Maintenance: AI-powered predictive maintenance uses machine learning to analyze equipment data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Chatbots: AI-driven chatbots use machine learning to understand customer queries and provide personalized responses, improving customer service and reducing support costs.
+5. Personalized Medicine: AI algorithms can analyze medical data and patient profiles to develop personalized treatment plans, improving patient outcomes and reducing healthcare costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,1.0,0.7,1,0.9,3,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications like facial recognition, object detection, and image search.
+3. Predictive Maintenance: AI-powered predictive maintenance uses machine learning to analyze equipment data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Chatbots: AI-driven chatbots use machine learning to understand customer queries and provide personalized responses, improving customer service and reducing support costs.
+5. Personalized Medicine: AI algorithms can analyze medical data and patient profiles to develop personalized treatment plans, improving patient outcomes and reducing healthcare costs."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,20.0,0.7,20,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""The simulation of human intelligence in machines that are programmed to think and learn like humans."",
+  ""examples"": [""Image recognition in self-driving cars"", ""Chatbots in customer service"", ""Personalized product recommendations""]
+}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,20.0,0.7,20,0.9,2,"{""name"": ""Artificial Intelligence"", ""definition"": ""The simulation of human intelligence in machines that are programmed to think and learn like humans."", ""examples"": [""Chatbots that can understand and respond to natural language inputs"", ""Self-driving cars that can navigate through complex roads"", ""Virtual assistants that can perform tasks and answer questions""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,20.0,0.7,20,0.9,3,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, and decision-making."", ""examples"": [""Amazon Alexa's ability to understand and respond to voice commands"", ""Self-driving cars that can navigate through complex road networks"", ""Google Assistant's ability to understand and answer complex questions""]}"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,20.0,0.7,20,0.9,1,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI algorithms can analyze and recognize objects, people, and scenes in images and videos, enabling applications like facial recognition, object detection, and surveillance.
+3. Predictive Maintenance: AI-driven predictive maintenance uses machine learning to analyze equipment performance data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Personalized Medicine: AI can analyze medical images, genomic data, and patient records to provide personalized treatment plans and diagnoses, improving patient outcomes and reducing healthcare costs.
+5. Chatbots: AI-powered chatbots can engage in natural-sounding conversations with customers, providing 24/7 support, answering frequent questions, and routing complex issues to human representatives."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,20.0,0.7,20,0.9,2,"1. Virtual assistants, such as Siri, Alexa, and Google Assistant, use AI to understand and respond to voice commands.
+2. Medical diagnosis AI systems, like IBM's Watson, analyze medical images and patient data to identify potential health issues.
+3. Chatbots on websites and apps use AI to engage with customers, answer frequently asked questions, and provide personalized support.
+4. Recommendation systems, found in online stores and streaming services, use AI to suggest products and content based on user preferences.
+5. Self-driving cars use AI to process sensory data, predict road conditions, and make decisions to navigate safely."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,20.0,0.7,20,0.9,3,"1. Image recognition: AI-powered computer vision can recognize and classify images, such as facial recognition, object detection, and scene understanding.
+2. Natural language processing: AI algorithms can analyze, understand, and generate human language, enabling applications like chatbots, language translation, and sentiment analysis.
+3. Predictive maintenance: AI-powered sensors and algorithms can predict equipment failures, reducing downtime and increasing overall efficiency in industries like manufacturing and energy.
+4. Personalized recommendations: AI-driven systems can analyze user behavior and preferences to provide personalized product recommendations, improving customer satisfaction and driving sales.
+5. Autonomous vehicles: AI and machine learning enable self-driving cars to perceive their environment, make decisions, and navigate safely, revolutionizing the transportation industry."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,40.0,0.7,40,0.9,1,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""Google Assistant's ability to understand and respond to voice commands"", ""AlphaGo's defeat of a human Go champion"", ""Siri's ability to answer user questions and provide information""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,40.0,0.7,40,0.9,2,"{""name"":""Artificial Intelligence"",""definition"":""Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",""examples"":[""A self-driving car's AI system can recognize and respond to road signs and pedestrians."",""A virtual assistant like Siri or Alexa uses AI to understand and respond to voice commands."",""An AI-powered chatbot can understand and respond to customer inquiries in a natural language.""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,40.0,0.7,40,0.9,3,"{""name"": ""Artificial Intelligence"", ""definition"": ""Artificial intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""A self-driving car that can navigate through streets"", ""A virtual assistant like Siri or Alexa that can understand voice commands"", ""A chatbot that can answer customer service questions""]}"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,40.0,0.7,40,0.9,1,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing (NLP) to understand and respond to user queries.
+2. Image Recognition: AI algorithms can analyze and recognize objects, faces, and patterns in images, enabling applications like facial recognition, medical diagnosis, and self-driving cars.
+3. Predictive Maintenance: AI can analyze equipment data and predict when maintenance is required, reducing downtime and increasing efficiency in industries like manufacturing and logistics.
+4. Chatbots: AI-driven chatbots use NLP to engage customers in conversations, providing 24/7 support, answering frequently asked questions, and routing complex issues to human customer service representatives.
+5. Personalized Medicine: AI can analyze vast amounts of medical data to identify patterns and make personalized treatment recommendations, improving patient outcomes and reducing healthcare costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,40.0,0.7,40,0.9,2,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant help users manage their schedules, answer questions, and perform tasks.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications like facial recognition, object detection, and image search.
+3. Natural Language Processing: AI can analyze and understand human language, allowing for applications like chatbots, language translation, and sentiment analysis.
+4. Predictive Maintenance: AI can analyze equipment performance data to predict when maintenance is needed, reducing downtime and increasing efficiency.
+5. Personalized Recommendations: AI-powered recommendation systems can analyze user behavior and preferences to suggest personalized products, services, and content."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,40.0,0.7,40,0.9,3,"1. Virtual Assistants: AI-powered virtual assistants, such as Siri, Alexa, and Google Assistant, can perform tasks, answer questions, and control smart home devices.
+2. Image Recognition: AI algorithms can identify and categorize objects, people, and scenes in images and videos, with applications in surveillance, healthcare, and e-commerce.
+3. Natural Language Processing: AI-driven NLP enables computers to understand, interpret, and generate human language, powering applications like chatbots, language translation, and sentiment analysis.
+4. Predictive Maintenance: AI can analyze sensor data from equipment and predict when maintenance is needed, reducing downtime and improving overall efficiency in industries like manufacturing and logistics.
+5. Personalized Recommendations: AI-based recommendation systems can analyze user behavior and preferences to suggest products, services, or content, improving customer experiences and driving sales in e-commerce and entertainment."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.5,0.7,40,0.5,1,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""A self-driving car that can navigate through traffic"", ""A virtual assistant that can understand and respond to voice commands"", ""A chatbot that can engage in a conversation about the weather""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.5,0.7,40,0.5,2,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""Image recognition in self-driving cars"", ""Chatbots in customer service"", ""Personalized product recommendations in e-commerce""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.5,0.7,40,0.5,3,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."", ""examples"": [""Chatbots that can answer customer queries"", ""Self-driving cars that can navigate roads"", ""Virtual assistants that can schedule appointments""]}"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.5,0.7,40,0.5,1,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to understand voice commands and perform tasks.
+2. Image Recognition: AI-powered image recognition systems can identify objects, people, and scenes in images and videos, with applications in security, healthcare, and e-commerce.
+3. Predictive Maintenance: AI algorithms can analyze sensor data from equipment and predict when maintenance is required, reducing downtime and increasing efficiency in industries like manufacturing and energy.
+4. Personalized Medicine: AI-powered diagnostic tools can analyze medical images and genomic data to provide personalized treatment plans for patients, improving healthcare outcomes.
+5. Chatbots: AI-powered chatbots can engage with customers in real-time, providing instant support and answering frequently asked questions, improving customer satisfaction and reducing support costs."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.5,0.7,40,0.5,2,"1. Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language, revolutionizing text-based interactions.
+2. Computer Vision allows AI to analyze and understand visual data from images and videos, with applications in facial recognition, object detection, and autonomous vehicles.
+3. Predictive Maintenance uses AI to analyze equipment performance data and predict when maintenance is required, reducing downtime and increasing overall efficiency.
+4. Chatbots and Virtual Assistants use AI to provide personalized customer service, answer frequently asked questions, and perform tasks such as booking appointments and making recommendations.
+5. Recommendation Systems use AI to analyze user behavior and preferences, suggesting products, services, or content that are likely to be of interest to the user."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.5,0.7,40,0.5,3,"1. Natural Language Processing (NLP) is used in virtual assistants like Siri, Alexa, and Google Assistant to understand and respond to voice commands.
+2. Computer Vision is applied in self-driving cars to detect and recognize objects, pedestrians, and traffic signals.
+3. Predictive Maintenance uses AI to analyze equipment performance data and predict when maintenance is required, reducing downtime and increasing efficiency.
+4. Recommendation Systems are used in e-commerce platforms like Amazon and Netflix to suggest products or shows based on user behavior and preferences.
+5. Chatbots are used in customer service to provide instant support and answer frequent questions, freeing up human representatives to handle more complex issues."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.9,0.7,40,0.9,1,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""Artificial intelligence (AI) refers to the development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+""examples"": [""AlphaGo defeating a world champion in Go"", ""Self-driving cars recognizing and responding to traffic signals"", ""Chatbots assisting customers with product recommendations""]"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.9,0.7,40,0.9,2,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, and decision-making."",
+""examples"": [""Image recognition in self-driving cars"", ""Chatbots that can understand natural language"", ""Predictive analytics in financial trading""]"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.9,0.7,40,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""The development of computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, and decision-making."",
+  ""examples"": [""IBM Watson"", ""Amazon Alexa"", ""Google Assistant""]
+}"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.9,0.7,40,0.9,1,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Google Assistant, and Alexa enable users to interact with devices using natural language.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications like facial recognition, object detection, and image search.
+3. Predictive Maintenance: AI-powered predictive maintenance systems analyze sensor data to predict equipment failures, reducing downtime and increasing overall efficiency.
+4. Natural Language Processing: AI-powered NLP enables language translation, sentiment analysis, and text summarization, facilitating human-computer interaction.
+5. Healthcare Diagnosis: AI-powered diagnostic tools analyze medical images, patient data, and medical histories to aid in disease diagnosis and treatment planning."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.9,0.7,40,0.9,2,"1. Virtual Assistants: AI-powered virtual assistants like Siri, Alexa, and Google Assistant can understand voice commands and perform tasks such as setting reminders, sending messages, and making phone calls.
+2. Image Recognition: AI algorithms can recognize and classify images, enabling applications such as facial recognition, object detection, and medical imaging analysis.
+3. Natural Language Processing: AI-powered language processing can analyze and generate human-like text, enabling applications such as language translation, sentiment analysis, and chatbots.
+4. Predictive Maintenance: AI-powered predictive maintenance can analyze equipment and system performance data to predict when maintenance is required, reducing downtime and increasing efficiency.
+5. Autonomous Vehicles: AI algorithms can control and navigate autonomous vehicles, enabling self-driving cars and trucks to navigate roads and avoid collisions."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.9,0.7,40,0.9,3,"1. Virtual assistants like Siri, Alexa, and Google Assistant use AI to understand and respond to voice commands.
+2. AI-powered chatbots help companies provide 24/7 customer support by answering frequent questions and routing complex issues to human agents.
+3. AI-driven predictive analytics help doctors diagnose diseases more accurately and prescribe effective treatments by analyzing large amounts of medical data.
+4. AI-powered self-driving cars use computer vision and machine learning to navigate roads, recognize traffic signals, and avoid accidents.
+5. AI-powered recommendation systems suggest personalized product offerings and services to customers based on their browsing and purchasing histories."
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,1.0,0.7,40,1.0,1,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The simulation of human intelligence in machines that are programmed to think and learn like humans."",
+""examples"": [""Play chess with a computer"", ""Recognize and respond to voice commands"", ""Generate creative writing""]
+}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,1.0,0.7,40,1.0,2,"{""name"": ""Artificial Intelligence"", ""definition"": ""The development of computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, and decision-making."", ""examples"": [""Facial recognition in security cameras"", ""Chatbots in customer service"", ""Self-driving cars""]}"
+structure,Llama 3,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,1.0,0.7,40,1.0,3,"{
+""name"": ""Artificial Intelligence"",
+""definition"": ""The development of computer systems that can perform tasks that would typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+""examples"": [""A self-driving car can detect and respond to road signs and pedestrians"", ""A virtual assistant like Siri or Alexa can understand voice commands and respond accordingly"", ""A chatbot can engage in a conversation and answer questions based on its training data""]"
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,1.0,0.7,40,1.0,1,"1. Virtual assistants like Siri, Alexa, and Google Assistant use AI to understand and respond to voice commands, making everyday tasks more convenient.
+2. AI-powered chatbots help businesses automate customer service, providing 24/7 support and improving response times.
+3. Predictive analytics using AI helps healthcare professionals diagnose diseases more accurately, reducing misdiagnosis rates and improving patient outcomes.
+4. Self-driving cars rely on AI to analyze sensor data, navigate roads, and make split-second decisions to ensure safe transportation.
+5. AI-driven content recommendation algorithms analyze user behavior and preferences to suggest personalized entertainment options, such as movies and music."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,1.0,0.7,40,1.0,2,"1. Healthcare: AI-powered diagnostic tools help doctors detect diseases like cancer and diabetes with higher accuracy and speed.
+2. Customer Service: AI-powered chatbots provide 24/7 customer support, answering frequent questions and freeing up human representatives for more complex issues.
+3. Self-Driving Cars: AI enables autonomous vehicles to navigate roads, recognize pedestrians, and avoid accidents, improving road safety and reducing traffic congestion.
+4. Personalized Recommendations: AI-driven algorithms suggest products, movies, and music tailored to individual preferences, enhancing customer experiences and driving sales.
+5. Cybersecurity: AI-powered systems detect and prevent cyberattacks, analyzing behavior patterns and identifying potential threats before they occur."
+structure,Llama 3,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,1.0,0.7,40,1.0,3,"1. Virtual assistants like Siri, Alexa, and Google Assistant use AI to understand natural language and perform tasks, answer questions, and learn user preferences.
+2. Image recognition technology uses AI to identify objects, people, and animals in images and videos, with applications in security, healthcare, and e-commerce.
+3. Chatbots use AI to simulate human-like conversations with customers, answering frequently asked questions, providing support, and routing complex issues to human representatives.
+4. Predictive maintenance uses AI to analyze equipment performance data, predict potential failures, and schedule maintenance to minimize downtime and reduce costs.
+5. Natural language processing (NLP) enables AI-powered text analysis, sentiment analysis, and content generation, with applications in marketing, customer service, and journalism."
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.2,0.2,40,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of algorithms and software that can perform tasks requiring intelligence when performed by humans, such as visual perception, speech recognition, decision-making, and problem-solving."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa"",
+    ""Self-driving cars"",
+    ""Personalized recommendations on e-commerce platforms""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.2,0.2,40,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of algorithms and software that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions based on real-time data."",
+    ""Virtual personal assistants like Siri and Alexa use AI to understand and respond to voice commands."",
+    ""AI-powered recommendation systems in e-commerce platforms suggest products based on a user's browsing and purchase history.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.2,0.2,40,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of algorithms and software that can perform tasks requiring intelligence when performed by humans, such as visual perception, speech recognition, decision-making, and problem-solving."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions."",
+    ""Virtual assistants like Siri and Alexa use AI to understand and respond to voice commands."",
+    ""AI-powered recommendation systems in e-commerce platforms suggest products based on a user's browsing and purchase history.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.2,0.2,40,0.9,1,"1. Personalized Recommendations for E-commerce Websites
+2. Autonomous Vehicles for Transportation
+3. Medical Diagnosis and Treatment Planning
+4. Chatbots for Customer Service
+5. Fraud Detection in Financial Services"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.2,0.2,40,0.9,2,"1. Virtual Assistants (like Siri, Google Assistant, and Alexa)
+2. Personalized Advertising on Websites and Social Media
+3. Medical Diagnosis and Treatment Planning
+4. Autonomous Vehicles (self-driving cars)
+5. Fraud Detection in Financial Services"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.2,0.2,40,0.9,3,"1. Virtual Assistants like Siri, Alexa, and Google Assistant for personal assistance and information retrieval.
+2. Personalized Advertising on websites and social media platforms to show users ads they are more likely to be interested in.
+3. Medical Diagnosis using AI algorithms to analyze medical images and diagnose diseases more accurately and faster than human doctors.
+4. Autonomous Vehicles in cars, trucks, and drones, which use AI to navigate and make decisions without human input.
+5. Fraud Detection in banking and finance systems to identify and prevent fraudulent activities."
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.7,0.7,40,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create systems that can perform tasks requiring human-like intelligence, such as visual perception, speech recognition, decision-making, and language understanding."",
+  ""examples"": [
+    ""Speech recognition software in virtual assistants like Siri or Alexa."",
+    ""Self-driving cars that use AI to navigate roads and make decisions."",
+    ""Personalized recommendations on e-commerce platforms, such as Netflix or Amazon.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.7,0.7,40,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, especially computer systems. These processes include learning (the ability to learn from experience), reasoning (the ability to make logical inferences), and self-correction (the ability to correct errors in its reasoning)."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make real-time decisions based on their environment."",
+    ""Virtual personal assistants like Siri or Alexa use AI to understand natural language commands and provide appropriate responses."",
+    ""AI algorithms used in healthcare help diagnose diseases and predict patient outcomes based on medical data.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,0.7,0.7,40,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""A field of computer science that deals with building and using intelligent machines that can perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Voice assistants like Siri and Alexa"",
+    ""Self-driving cars"",
+    ""Image recognition software""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.7,0.7,40,0.9,1,"1. Virtual Assistants (like Siri, Google Assistant, and Alexa) for personal and business use.
+2. Personalized Advertising on websites and social media platforms.
+3. Medical Image Analysis to assist in diagnosing diseases more accurately.
+4. Autonomous Vehicles for safer and more efficient transportation.
+5. Personalized Recommendations for e-commerce and streaming services."
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.7,0.7,40,0.9,2,"1. Virtual Assistants like Siri, Alexa, and Google Assistant for customer service and personal assistance
+2. Medical Diagnosis using AI to analyze medical images and assist in disease diagnosis
+3. Autonomous Vehicles for safer and more efficient transportation
+4. Personalized Online Advertising to provide users with more relevant and engaging content
+5. Fraud Detection systems in banking and financial services to prevent fraudulent activities"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,0.7,0.7,40,0.9,3,"1. Virtual Assistants (like Siri, Google Assistant, and Alexa)
+2. Healthcare Diagnosis and Treatment Suggestion
+3. Autonomous Vehicles
+4. Personalized Online Advertising
+5. Smart Home Systems"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,1.2,1.2,40,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that focuses on building machines capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and complex problem-solving."",
+  ""examples"": [
+    ""Smart home devices that learn your routines and preferences to optimize energy use and personal convenience"",
+    ""Language translation apps that can understand and respond to human speech"",
+    ""Self-driving cars that use AI to navigate and make decisions on the road""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,1.2,1.2,40,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to learn, reason, and perform tasks that usually require human intelligence."",
+  ""examples"": [
+    ""Sophisticated chatbots that can understand and respond to customer queries on e-commerce platforms."",
+    ""Robots performing complex surgical procedures with high precision and minimal human intervention."",
+    ""Personal assistants like Siri and Alexa that can perform tasks such as setting reminders, playing music, and controlling smart home devices.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",temperature,1.2,1.2,40,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""A branch of computer science dealing with the creation of intelligent machines that can work and learn like a human being."",
+  ""examples"": [
+    ""Smart assistant on a smartphone that can respond to voice commands"",
+    ""Self-driving cars that use AI to navigate roads and avoid accidents"",
+    ""AI language models like Qwen that can understand and respond to text-based queries""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,1.2,1.2,40,0.9,1,"1. Autonomous Vehicles
+2. Personal Assistants (like Siri, Alexa)
+3. Fraud Detection Systems
+4. Medical Image Analysis
+5. Personalized Online Advertising"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,1.2,1.2,40,0.9,2,"1. Virtual Assistants like Siri, Alexa, and Google Assistant
+2. Personalized Online Advertising
+3. Medical Image Diagnosis and Analysis
+4. Smart Crop Monitoring Systems for Agriculture
+5. Autonomous Vehicles for Transportation and Delivery Services"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",temperature,1.2,1.2,40,0.9,3,"1. Personal assistants like Siri, Google Assistant, and Alexa use AI to assist with tasks and provide information.
+2. Recommendation systems in e-commerce platforms use AI to suggest products and content that users might like.
+3. Self-driving cars rely on AI to analyze sensory input such as cameras, sensors, and maps to navigate roads autonomously.
+4. Health applications use AI for diagnostics, patient monitoring, and personal health management.
+5. Fraud detection systems in financial services use AI algorithms to identify unusual activity and prevent fraudulent transactions."
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,1.0,0.7,1,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of algorithms and software that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions based on real-time data."",
+    ""Virtual personal assistants like Siri and Alexa use AI to understand and respond to voice commands."",
+    ""AI-powered recommendation systems in e-commerce platforms suggest products based on a user's browsing and purchase history.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,1.0,0.7,1,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of algorithms and software that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions based on real-time data."",
+    ""Virtual personal assistants like Siri and Alexa use AI to understand and respond to voice commands."",
+    ""AI-powered recommendation systems in e-commerce platforms suggest products based on a user's browsing and purchase history.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,1.0,0.7,1,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of algorithms and software that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions based on real-time data."",
+    ""Virtual personal assistants like Siri and Alexa use AI to understand and respond to voice commands."",
+    ""AI-powered recommendation systems in e-commerce platforms suggest products based on a user's browsing and purchase history.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,1.0,0.7,1,0.9,1,"1. Virtual Assistants like Siri, Alexa, and Google Assistant for personal assistance and information retrieval.
+2. Personalized Advertising on websites and social media platforms based on user behavior and preferences.
+3. Medical Diagnosis and Treatment Planning using AI algorithms to analyze medical images and suggest treatments.
+4. Autonomous Vehicles in self-driving cars to improve road safety and reduce traffic congestion.
+5. Fraud Detection in banking and finance sectors to identify and prevent fraudulent activities."
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,1.0,0.7,1,0.9,2,"1. Virtual Assistants like Siri, Alexa, and Google Assistant for personal assistance and information retrieval.
+2. Personalized Advertising on websites and social media platforms based on user behavior and preferences.
+3. Medical Diagnosis and Treatment Planning using AI algorithms to analyze medical images and suggest treatments.
+4. Autonomous Vehicles in self-driving cars to improve road safety and reduce traffic congestion.
+5. Fraud Detection in banking and finance sectors to identify and prevent fraudulent activities."
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,1.0,0.7,1,0.9,3,"1. Virtual Assistants like Siri, Alexa, and Google Assistant for personal assistance and information retrieval.
+2. Personalized Advertising on websites and social media platforms based on user behavior and preferences.
+3. Medical Diagnosis and Treatment Planning using AI algorithms to analyze medical images and suggest treatments.
+4. Autonomous Vehicles in self-driving cars to improve road safety and reduce traffic congestion.
+5. Fraud Detection in banking and finance sectors to identify and prevent fraudulent activities."
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,20.0,0.7,20,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""A field of computer science that aims to create machines that can perform tasks that typically require human intelligence, such as learning, reasoning, and problem-solving."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa"",
+    ""Recommendation systems on e-commerce platforms"",
+    ""Self-driving cars""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,20.0,0.7,20,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can think and act like humans. It involves the development of algorithms and systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Virtual assistants like Siri, Alexa, and Google Assistant that answer questions and perform tasks based on voice commands."",
+    ""Self-driving cars that use AI to navigate roads and make decisions."",
+    ""AI-powered medical diagnosis systems that assist doctors in making more accurate diagnoses.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,20.0,0.7,20,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa that understand natural language and perform tasks based on user commands."",
+    ""Robots that can recognize faces and objects, and even play games at human-level or above."",
+    ""Self-driving cars that use AI to navigate roads and make decisions.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,20.0,0.7,20,0.9,1,"1. Personalized Advertising
+2. Autonomous Vehicles
+3. Healthcare Diagnosis and Treatment Suggestion
+4. Chatbots and Virtual Assistants
+5. Fraud Detection Systems"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,20.0,0.7,20,0.9,2,"1. Virtual Assistants like Siri, Alexa, and Google Assistant for personal assistance and task management.
+2. Personalized Shopping Recommendations on e-commerce platforms like Amazon's product suggestions.
+3. Disease Diagnosis and Treatment Planning using AI in medical fields, such as diagnosing illnesses from medical images.
+4. Autonomous Vehicles in transportation to improve safety and efficiency.
+5. Predictive Analytics in finance for risk assessment and fraud detection."
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,20.0,0.7,20,0.9,3,"1. Virtual Assistants (e.g., Siri, Google Assistant)
+2. Personalized Advertising
+3. Image and Speech Recognition in Smart Devices
+4. Autonomous Vehicles
+5. Healthcare Diagnostics and Personalized Treatment Plans"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,40.0,0.7,40,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a branch of computer science that focuses on developing intelligent computer systems capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Speech recognition software in virtual assistants like Siri and Alexa"",
+    ""Self-driving cars that use AI to navigate and make decisions on the road"",
+    ""Personalized recommendations from streaming services like Netflix and Spotify""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,40.0,0.7,40,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""A field of computer science dealing with the creation and use of intelligent machines, especially computer programs that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Voice assistants like Siri, Alexa, and Google Assistant"",
+    ""Self-driving cars and drones"",
+    ""Recommendation systems in e-commerce and social media""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_k,40.0,0.7,40,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science dealing with the creation and use of computer algorithms that can perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Smart assistants like Siri and Alexa that can answer questions and perform tasks."",
+    ""Self-driving cars that can navigate roads and avoid obstacles."",
+    ""Chatbots that can simulate conversation as if it were a real person.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,40.0,0.7,40,0.9,1,"1. Virtual Assistants (like Siri, Alexa, and Google Assistant)
+2. Personalized Advertising and Recommendations
+3. Healthcare Diagnosis and Treatment Planning
+4. Autonomous Vehicles
+5. Fraud Detection Systems"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,40.0,0.7,40,0.9,2,"1. Personal Assistants (e.g., Siri, Google Assistant)
+2. Healthcare (e.g., diagnosing diseases, personalized treatment plans)
+3. Autonomous Vehicles
+4. Customer Service Chatbots
+5. Financial Market Predictions"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_k,40.0,0.7,40,0.9,3,"1. Personal Assistants and Virtual Assistants like Siri, Alexa, and Google Assistant
+2. Recommendation Systems in E-commerce for personalized product suggestions
+3. Autonomous Vehicles in the Automotive Industry
+4. Medical Diagnosis and Disease Prediction using AI algorithms
+5. Fraud Detection in Financial Services"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.5,0.7,40,0.5,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions."",
+    ""Virtual personal assistants like Siri and Alexa use AI to understand and respond to user commands."",
+    ""AI algorithms analyze large datasets to predict weather patterns and improve forecasts.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.5,0.7,40,0.5,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can perform tasks that usually require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Self-driving cars use AI to navigate roads and make decisions based on real-time data."",
+    ""Virtual personal assistants like Siri and Alexa use AI to understand and respond to user commands."",
+    ""AI-powered chatbots can assist customers in online stores by providing information and handling basic customer service inquiries.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.5,0.7,40,0.5,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and react like humans. It involves the development of algorithms and computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa"",
+    ""Self-driving cars"",
+    ""Personalized recommendations on e-commerce platforms""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.5,0.7,40,0.5,1,"1. Personalized Recommendations in E-commerce
+2. Autonomous Driving in Self-Driving Cars
+3. Medical Diagnosis and Treatment Planning
+4. Chatbots for Customer Service
+5. Fraud Detection in Financial Services"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.5,0.7,40,0.5,2,"1. Virtual Assistants (like Siri, Google Assistant, and Alexa)
+2. Personalized Advertising on Websites and Social Media
+3. Autonomous Vehicles
+4. Medical Image Analysis for Diagnostics
+5. Fraud Detection in Financial Services"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.5,0.7,40,0.5,3,"1. Virtual Assistants (like Siri, Google Assistant, and Alexa)
+2. Personalized Advertising on Websites and Social Media
+3. Image and Voice Recognition for Security Systems and Smart Devices
+4. Medical Diagnosis and Treatment Planning
+5. Autonomous Vehicles for Transportation Systems"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.9,0.7,40,0.9,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that focuses on the development of intelligent machines that can perform tasks that usually require human intelligence, such as learning, reasoning, and problem-solving."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa"",
+    ""Self-driving cars"",
+    ""Personalized recommendations on streaming services""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.9,0.7,40,0.9,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can work and learn like humans. It involves the development of software and algorithms that can process data, understand patterns, make decisions, and perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Virtual personal assistants like Siri and Alexa"",
+    ""Smart home devices that can control lights and thermostats"",
+    ""Self-driving cars""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,0.9,0.7,40,0.9,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can work and react like humans. It involves the development of algorithms and software that can perform tasks requiring intelligence when performed by humans, such as learning, reasoning, and problem-solving."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa that understand voice commands and respond accordingly."",
+    ""Self-driving cars that use AI to navigate roads and make decisions."",
+    ""Chatbots that can simulate human-like conversation with a human user.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.9,0.7,40,0.9,1,"1. Personalized recommendations for products and content on e-commerce and streaming platforms.
+2. Autonomous vehicles in transportation to improve safety and efficiency.
+3. Virtual assistants and chatbots for customer service and support.
+4. Fraud detection systems to identify and prevent fraudulent activities.
+5. Medical diagnosis tools to assist in early disease detection and treatment."
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.9,0.7,40,0.9,2,"1. Personalized Recommendations on E-commerce Platforms
+2. Autonomous Driving in Vehicles
+3. Disease Diagnosis with Medical Imaging Analysis
+4. Virtual Assistants for Customer Service
+5. Personalized Learning Plans for Students"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,0.9,0.7,40,0.9,3,"1. Virtual Assistants (like Siri, Google Assistant, and Alexa)
+2. Personalized Advertising
+3. Healthcare Diagnosis and Treatment Planning
+4. Autonomous Vehicles
+5. Personalized E-Commerce Recommendations"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,1.0,0.7,40,1.0,1,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is the simulation of human intelligence processes by computer systems, such as learning, reasoning, and self-correction."",
+  ""examples"": [
+    ""Voice-activated virtual assistants like Siri and Alexa"",
+    ""Self-driving cars that use AI to navigate and make decisions"",
+    ""Machine learning algorithms that recommend products to customers""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,1.0,0.7,40,1.0,2,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can think and act like humans. It involves designing algorithms and systems that can learn, reason, and perform tasks that typically require human intelligence."",
+  ""examples"": [
+    ""Sophisticated chatbots designed to assist customers in e-commerce platforms"",
+    ""Self-driving cars that make decisions based on real-time data and environment"",
+    ""Voice recognition software that helps people with disabilities interact with technology""
+  ]
+}"
+structure,Qwen 2.5:3b,S_JSON,"Return ONLY a valid JSON object with exactly these keys: ""name"" (string), ""definition"" (string), ""examples"" (list of exactly 3 strings), describing Artificial Intelligence. Do not write anything outside the JSON.",top_p,1.0,0.7,40,1.0,3,"{
+  ""name"": ""Artificial Intelligence"",
+  ""definition"": ""Artificial Intelligence (AI) is a field of computer science that aims to create intelligent machines that can think and act like humans, capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation."",
+  ""examples"": [
+    ""Virtual assistants like Siri and Alexa, which respond to voice commands and complete tasks."",
+    ""Self-driving cars that use AI to navigate roads and avoid obstacles."",
+    ""Personalized advertising that suggests products based on a user's browsing and purchase history.""
+  ]
+}"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,1.0,0.7,40,1.0,1,"1. Virtual Assistants
+2. Personalized Advertising
+3. Autonomous Vehicles
+4. Medical Diagnostics
+5. Personalized Learning Platforms"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,1.0,0.7,40,1.0,2,"1. Personalized recommendations on streaming platforms like Netflix and Spotify
+2. Autonomous driving in vehicles like those from Tesla
+3. Chatbots in customer service for virtual assistants like Siri and Alexa
+4. Medical diagnosis and treatment suggestions through AI-powered software
+5. Fraud detection systems in banking and finance sectors"
+structure,Qwen 2.5:3b,S_LIST,"List exactly 5 applications of Artificial Intelligence as a numbered list (1. to 5.), one line each. Do not write any introduction or conclusion.",top_p,1.0,0.7,40,1.0,3,"1. Virtual assistants like Siri, Alexa, and Google Assistant use AI to understand and respond to voice queries.
+2. Recommendation systems in e-commerce platforms suggest products based on a user's browsing and purchasing history.
+3. AI-driven chatbots are used in customer service to provide instant responses to common questions and issues.
+4. Autonomous vehicles utilize AI to navigate roads, make decisions, and respond to their environment.
+5. Medical diagnosis software uses machine learning to interpret medical images and assist in disease detection and diagnosis."
